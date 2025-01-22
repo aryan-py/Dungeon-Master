@@ -6,12 +6,12 @@ load_dotenv()
 
 # Snowflake configuration
 SNOWFLAKE_CONFIG = {
-    "account": os.getenv(aryan-py),
-    "user": os.getenv(ARYANPY),
-    "password": os.getenv(Suchitra1),
-    "warehouse": os.getenv(cortex_search_tutorial_wh),
-    "database": os.getenv(cortex_search_tutorial_db),
-    "schema": os.getenv(cortex_search_tutorial_db.public.fomc)
+    "account": os.getenv("aryan-py"),
+    "user": os.getenv("ARYANPY"),
+    "password": os.getenv("Suchitra1"),
+    "warehouse": os.getenv("cortex_search_tutorial_wh"),
+    "database": os.getenv("cortex_search_tutorial_db"),
+    "schema": os.getenv("cortex_search_tutorial_db.public.fomc")
 }
 
 # Model configuration
